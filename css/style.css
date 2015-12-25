@@ -1,0 +1,14 @@
+.icon_kapica_logo {
+    background: url(../images/kapica.png);
+    background-size: 63px;
+    width: 63px;
+    height: 35px;
+    display: block;
+    background-repeat:no-repeat;
+}
+.logo_wrap {
+     width: 85px;
+    float: left;
+    margin: 5px 0 10px 10px;
+    height: 35px;
+}
