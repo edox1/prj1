@@ -12,3 +12,39 @@
     margin: 5px 0 10px 10px;
     height: 35px;
 }
+.kocka {
+    float: left;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.bg_vijesti {
+    background-color: #d33d3d!important;
+}
+.bg_biznis {
+    background-color: #EF6F3E!important;
+}
+.bg_sport {
+    background-color: #55AC53!important;
+}
+.bg_magazin {
+    background-color: #a45091!important;
+}
+.bg_lifestyle {
+    background-color: #E2A600!important;
+}
+.bg_scitech {
+    background-color: #40afee!important;
+}
+.bg_auto {
+    background-color: #487baf!important;
+}
