@@ -20,13 +20,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#" data-toggle="tab"><div class="kocka bg_vijesti"></div>Vijesti <span class="sr-only">(current)</span></a></li>
-        <li><a href="#" data-toggle="tab"><div class="kocka bg_biznis"></div>Biznis</a></li>
-        <li><a href="#" data-toggle="tab"><div class="kocka bg_sport"></div>Sport</a></li>
-        <li><a href="#" data-toggle="tab"><div class="kocka bg_magazin"></div>Magazin</a></li>
-        <li><a href="#" data-toggle="tab"><div class="kocka bg_lifestyle"></div>Lifestyle</a></li>
-        <li><a href="#" data-toggle="tab"><div class="kocka bg_scitech"></div>Scitech</a></li>
-        <li><a href="#" data-toggle="tab"><div class="kocka bg_auto"></div>Auto</a></li>
+        <li class="active"><a href="#" data-toggle="tab" id="vijesti"><div class="kocka bg_vijesti"></div>Vijesti <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" data-toggle="tab" id="biznis"><div class="kocka bg_biznis"></div>Biznis</a></li>
+        <li><a href="#" data-toggle="tab" id="sport"><div class="kocka bg_sport"></div>Sport</a></li>
+        <li><a href="#" data-toggle="tab" id="magazin"><div class="kocka bg_magazin"></div>Magazin</a></li>
+        <li><a href="#" data-toggle="tab" id="lifestyle"><div class="kocka bg_lifestyle"></div>Lifestyle</a></li>
+        <li><a href="#" data-toggle="tab" id="scitech"><div class="kocka bg_scitech"></div>Scitech</a></li>
+        <li><a href="#" data-toggle="tab" id="auto"><div class="kocka bg_auto"></div>Auto</a></li>
         
         
           </ul>
