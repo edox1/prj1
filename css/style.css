@@ -69,3 +69,56 @@
 #auto:hover {
     color: #487baf;
 }
+.formshort {
+    display: block;
+    
+}
+.prijavadesno{
+    
+    float: right;
+}
+.ili-separator {
+    position: relative;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.lajna {
+    border-bottom: 1px solid #dadada;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+   
+}
+.krug-ili {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid #dadada;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    position: absolute;
+}
+.buttonpad {
+    margin-bottom: 15px;
+    
+}
+.nodecor {
+    
+   text-decoration: none;
+}
+button:hover {
+    
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none !important;
+}
