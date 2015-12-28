@@ -34,7 +34,7 @@
       </ul>
      
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" ><span class="glyphicon glyphicon-user"></span> Login</a></li>
+        <li><a href="../login.php" ><span class="glyphicon glyphicon-user"></span> Login</a></li>
         
           </ul>
         </li>
