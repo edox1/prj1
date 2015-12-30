@@ -1,4 +1,3 @@
-<link href="css/style.css" rel="stylesheet" type="text/css"/>
 <?php include 'includes/navigation.php'; ?>
 <?php require 'includes/connect.inc.php'; ?>
 
