@@ -1,0 +1,124 @@
+.icon_kapica_logo {
+    background: url(../images/kapica.png);
+    background-size: 63px;
+    width: 63px;
+    height: 35px;
+    display: block;
+    background-repeat:no-repeat;
+}
+.logo_wrap {
+     width: 85px;
+    float: left;
+    margin: 5px 0 10px 10px;
+    height: 35px;
+}
+.kocka {
+    float: left;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.bg_vijesti {
+    background-color: #d33d3d!important;
+}
+.bg_biznis {
+    background-color: #EF6F3E!important;
+}
+.bg_sport {
+    background-color: #55AC53!important;
+}
+.bg_magazin {
+    background-color: #a45091!important;
+}
+.bg_lifestyle {
+    background-color: #E2A600!important;
+}
+.bg_scitech {
+    background-color: #40afee!important;
+}
+.bg_auto {
+    background-color: #487baf!important;
+}
+#vijesti:hover {
+    color: #d33d3d;
+}
+#biznis:hover {
+    color: #EF6F3E;
+}
+#sport:hover {
+    color: #55AC53;
+}
+#magazin:hover {
+    color: #a45091;
+}
+#lifestyle:hover {
+    color: #E2A600;
+}
+#scitech:hover {
+    color: #40afee;
+}
+#auto:hover {
+    color: #487baf;
+}
+.formshort {
+    display: block;
+    
+}
+.prijavadesno{
+    
+    float: right;
+}
+.ili-separator {
+    position: relative;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.lajna {
+    border-bottom: 1px solid #dadada;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+   
+}
+.krug-ili {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid #dadada;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    position: absolute;
+}
+.buttonpad {
+    margin-bottom: 15px;
+    
+}
+.nodecor {
+    
+   text-decoration: none;
+}
+button:hover {
+    
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none !important;
+}
