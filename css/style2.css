@@ -2,11 +2,11 @@ body{
 	background-color: #ECECEC;
 }
 
-.container {
+.container1 {
   display: flex;
   flex-flow: row wrap;
   margin: auto;
-  width: 67%;
+  width: 100%;
 
 }
 
@@ -15,7 +15,7 @@ img {
 	margin: auto;
 }
 
-.container > * {
+.container1 > * {
   padding: 0px;
   flex: 1 100%;
 }
@@ -77,15 +77,15 @@ img {
 
 
 @media all and (max-width: 1200px) {
-  .container {
-	width: 80%;
+  .container1 {
+	width: 100%;
 	}
 
 }
 
 @media all and (max-width: 800px) {
-  .container {
-	width: 90%;
+  .container1 {
+	width: 100%;
 	}
 }
 
