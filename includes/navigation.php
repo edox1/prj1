@@ -15,7 +15,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand logo_wrap icon_kapica_logo" href="#"></a>
+      <a class="navbar-brand logo_wrap icon_kapica_logo" href="http://localhost/prj1/index.php"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
