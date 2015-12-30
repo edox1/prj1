@@ -17,6 +17,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        $emailErr = "Invalid email format"; 
      }
    }
+   $query = mysql_query("SELECT email FROM user WHERE email='$email' ");
+  if (mysql_num_rows($query) != 0)
+    {
+      $emailErr = "Email already exists";
+    }
    
    if (empty($_POST["username"])) {
      $usernameErr = "Username is required";
@@ -27,6 +32,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        $usernameErr = "Only letters and numbers are allowed"; 
      }
    }
+   $query = mysql_query("SELECT username FROM user WHERE username='$username' ");
+  if (mysql_num_rows($query) != 0)
+    {
+      $usernameErr = "Username already exists";
+    }
+
+     
 
    if (empty($_POST["password"])) {
      $passwordErr = "Password is required";
