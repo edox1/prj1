@@ -1,9 +1,0 @@
-.wrapper {
-
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  font-weight: bold;
-  text-align: center;
-
-}
