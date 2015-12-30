@@ -122,3 +122,11 @@ button:hover {
 a:hover {
     text-decoration: none !important;
 }
+div.navbar-header {
+    height: 50px !important;
+    
+}
+.rmpading-15 {
+    padding: 0px !important;
+    
+}

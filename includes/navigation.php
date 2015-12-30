@@ -83,13 +83,13 @@
                     </div>
                     <p>&nbsp;</p>
                     <div class="col-xs-12 buttonpad">
-                        <a href="#" ><button type="button" class="btn btn-info btn-lg btn-block nodecor">Registruj se</button>
+                        <a href="register.php" ><button type="button" class="btn btn-info btn-lg btn-block nodecor">Registruj se</button>
                         </a>
                     </div>
                     <p>&nbsp;</p>
                     </form>
            
-               
+       
         </div>
        
       </div>
