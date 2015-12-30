@@ -2,129 +2,16 @@
 <html>
 <head>
  <meta charset="UTF-8"> 
+ <link rel="stylesheet" type="text/css" href="css/style2.css" />
 
-<style>
-
-body{
-	background-color: #ECECEC;
-}
-
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  margin: auto;
-  width: 67%;
-
-}
-
-img {
-	width: 100%;
-	margin: auto;
-}
-
-.container > * {
-  padding: 0px;
-  flex: 1 100%;
-}
-
-.news-bih {
-	background-color: #FFF; 
-	margin: 5px;
-}
-
-.news-edukacija {
-	background-color: #40AFEE;
-	margin: 5px;
-}
-
-
-.news-header {
-	font-family: "Roboto Slab";
-	font-size: 16px;
-	margin: 0px;
-	padding: 7px;
-}
-
-.news-header-bih {
-	color: #555;
-	padding: 7px;
-}
-.news-header-edukacija {
-	color: #FFF;
-	padding: 7px;
-}
-
-
-
-.news-item {
-	font-family: "Roboto";
-	font-size: 12px;
-	color: #828282;
-	line-height: 18px;
-	padding: 7px;
-}
-
-
-@media all and (min-width: 800px) {
-  .news-bih {
-    flex: 1 0px;
-  }
-  .news-edukacija {
-    flex: 1 0px;
-  }
-}
-
-@media all and (min-width: 800px) {
-  
-  .news-big {
-    flex: 2 0px;
-  }
-
-}
-
-
-@media all and (max-width: 1200px) {
-  .container {
-	width: 80%;
-	}
-
-}
-
-@media all and (max-width: 800px) {
-  .container {
-	width: 90%;
-	}
-}
-
-.header-line {
-	margin: 7px;
-}
-
-.header-line > a {
-	color: #D33D3D;
-	font-size: 12px;
-	font-family: "Sans-serif";
-	text-decoration: none;
-	padding: 5px;
-	font-weight: normal;
-}
-.news-edukacija .header-line > a {
-	color: #fff;
-}
-
-
-
-
-.header-line > a:hover {
-	text-decoration: underline;
-}
-
-
-
-
-</style>
 </head>
 <body>
+
+
+<?php include 'includes/navigation.php'; ?>
+
+
+
 <div class="container">
 		<section class="container">  
 			<article class="news-bih">
