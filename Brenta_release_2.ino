@@ -165,7 +165,7 @@ void programingMode() {
   lcd.print("Unesi impuls/cm:");
   lcd.setCursor (0 , 1 );
   lcd.print("_ [mm]");
-
+  char inputKey;
   while(1) {
     cursorBlink();
     inputKey = customKeypad.getKey();
