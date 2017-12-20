@@ -111,7 +111,6 @@ void loop(){
     } else if ( inputKey == 'L' ) { // remove character
       removeLastCharacterFromString();
     } else if ( inputKey == 'O' ) {
-      temp_move=str_display[1];
       moveMotor();
     } else if (inputKey  ){
       writeShift(inputKey);
@@ -281,6 +280,7 @@ void removeLastCharacterFromString(){
 }
 
 void moveMotor(){
+  temp_move=str_display[1];
   digitalWrite(MOTOR_DIRECTION_UP_PIN, LOW); // motor up disable
   delay(100);
   digitalWrite(MOTOR_DIRECTION_DOWN_PIN, HIGH); // down direction
