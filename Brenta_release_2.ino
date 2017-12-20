@@ -140,7 +140,6 @@ void programingModeCheck(){
   while(1){
     wait_time = millis() - start_time;
     if( wait_time > WAIT_DELAY_FOR_PROGRAMING ) { // if hold '*' WAIT_DELAY_FOR_PROGRAMING=3000ms 
-      start_time = millis();
       programingMode();
       restart(true);
       return;
@@ -149,7 +148,7 @@ void programingModeCheck(){
     if( wait_time > WAIT_STD_DELAY ) { // standard wait delay 50ms for break loop
       start_time_std_delay = millis();
       inputKey = customKeypad.getKey();
-      if( inputKey && inputKey != '*' ) {
+      if( inputKey != '*' ) {
         return;
       }
     }
