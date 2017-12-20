@@ -142,6 +142,7 @@ void programingModeCheck(){
     if( wait_time > WAIT_DELAY_FOR_PROGRAMING ) { // if hold '*' WAIT_DELAY_FOR_PROGRAMING=3000ms 
       start_time = millis();
       programingMode();
+      restart(true);
       return;
     }
     wait_time = millis() - start_time_std_delay;
@@ -175,6 +176,12 @@ void programingMode() {
 
     if ( inputKey == 'O' ) {
       STEPS_PER_CM = str_display[1].toInt(); 
+      lcd.clear();
+      lcd.setCursor (0 , 0 );
+      lcd.print("Impuls/cm je:");
+      lcd.setCursor (0 , 1 );
+      lcd.print(STEPS_PER_CM + " [mm]");
+      delay(2000);
       return;
     } else if ( inputKey == 'Q' ) {
       return;
